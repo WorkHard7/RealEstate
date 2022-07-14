@@ -1,0 +1,164 @@
+/*Global style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 63.6%;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Header */
+
+header{
+    background: #ececec;
+    min-height: 35vh;
+}
+#logo{
+    flex: 1;
+    margin-top: -50px;
+}
+nav{
+    min-height: 10vh; 
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    flex: 1.5;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: -50px;
+}
+.nav-links a{
+    transition: all 0.5s ease-in-out;
+}
+.nav-links li:not(:last-child):hover{
+    transform: scale(1.1);
+}
+.nav-btn{
+    border: none;
+    padding: .5rem 1rem;
+    background: rgba(54, 151, 65, 0.862);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: .9rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 0 3px 0px rgba(81, 235, 73, 0.402);
+    transition: all 0.8s ease-in-out;
+}
+.nav-btn:hover{
+    background: rgba(81, 235, 73, 0.402);
+    color: black;
+}
+
+/* Intro section */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+}
+.intro h4{
+    padding: .9rem;
+    font-weight: 300;
+}
+.intro-btns{
+    padding-top: .4rem;
+}
+.intro-btns button{
+    cursor: pointer;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    box-shadow: 0 3px 0px rgb(203, 202, 202);
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+.intro-btns button:first-child{
+    background: rgb(248, 180, 53);
+    color: white;
+    margin-right: 8px;
+}
+.intro-btns button:last-child{
+    background: rgb(225, 223, 223);
+}
+.intro-btns button:last-child:hover{
+    background: rgb(248, 180, 53);
+    color: white;
+}
+.intro-btns button:first-child:hover{
+    background: rgb(225, 223, 223);
+    color: black;;
+}
+
+/* Video section */
+
+.video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.video-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.9rem;
+}
+
+/* Icons style */
+.hero{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.hero-text h4{
+    font-weight: 300;
+}
+
+/* Hero-images section */
+
+.hero-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px 250px;
+    gap: 5px;;
+}
+.hero-image img{
+    width: 300px;
+    border-radius: 5px;
+}
