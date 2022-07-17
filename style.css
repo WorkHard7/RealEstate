@@ -48,7 +48,7 @@ nav {
   justify-content: space-between;
   list-style-type: none;
   margin-top: -10px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 .nav-links a {
   transition: all 0.5s ease-in-out;
@@ -58,12 +58,12 @@ nav {
 }
 .nav-btn {
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.5rem;
   background: rgba(54, 151, 65, 0.862);
   color: white;
   cursor: pointer;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   border-radius: 3px;
   box-shadow: 0 3px 0px rgba(81, 235, 73, 0.402);
@@ -72,6 +72,7 @@ nav {
 .nav-btn:hover {
   background: rgba(81, 235, 73, 0.402);
   color: black;
+  box-shadow: 0 3px 0px rgba(54, 151, 65, 0.862);
 }
 
 /* Intro Section 
@@ -83,21 +84,26 @@ nav {
   align-items: center;
   padding-top: 3.5rem;
 }
-.intro h4 {
-  padding: 1.3rem;
+.intro h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.intro h2 {
+  padding: 1rem;
   font-weight: 300;
 }
 .intro-btns {
-  padding-top: 0.7rem;
+  padding-top: 1.3rem;
 }
 .intro-btns a {
   cursor: pointer;
   border: none;
-  padding: 0.5rem 1.3rem;
+  padding: 0.7rem 1.7rem;
   border-radius: 3px;
   box-shadow: 0 3px 0px rgb(203, 202, 202);
   transition: all 0.5s ease-in-out;
   font-weight: 500;
+  font-size: 1.3rem;
 }
 .intro-btns a:first-child {
   background: rgb(248, 180, 53);
@@ -133,7 +139,7 @@ nav {
   padding-top: 0.9rem;
 }
 .video-button button {
-  padding: 0.8rem 1.5rem;
+  padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
 }
 
@@ -261,7 +267,7 @@ nav {
 .testemonial-section {
   width: 80%;
   margin: auto;
-  padding: 5rem;
+  padding-top: 5rem;
 }
 .testemonial-text {
   text-align: center;
@@ -331,7 +337,7 @@ nav {
 }
 .testemonials-btn {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 0 4rem 0;
 }
 .testemonials-btn button {
   border: none;
@@ -394,7 +400,7 @@ nav {
 
 .user-panel-section {
   padding-top: 5rem;
-  background: url(./images/36d209584ab7692cbca7ff9910691a3e-abstract-gray-polygonal-background.jpg);
+  background: url(./images/UserPanel/36d209584ab7692cbca7ff9910691a3e-abstract-gray-polygonal-background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -551,7 +557,7 @@ nav {
 /* Plugins Section */
 
 .plugins-section {
-  padding: 5rem;
+  padding: 4rem;
   text-align: center;
 }
 .plugins-text h1 {
@@ -596,7 +602,7 @@ nav {
 /* Footer Section */
 
 footer {
-  height: 50rem;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -644,6 +650,32 @@ footer {
   background: rgba(113, 166, 110, 0.955);
   color: black;
   box-shadow: 0 3px 0px rgba(54, 151, 65, 0.862);
+}
+
+/* White Line/ Triangle Section
+--------------------------->*/
+
+.white-line {
+  width: 100%;
+  height: 1.8rem;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 2.3rem solid transparent;
+  border-right: 2.3rem solid transparent;
+  border-top: 1.8rem solid var(--gray-color);
+}
+.white-triangle {
+  width: 0;
+  height: 0;
+  border-left: 2.3rem solid transparent;
+  border-right: 2.3rem solid transparent;
+  border-top: 1.8rem solid white;
+  margin-top: 1.8rem;
 }
 
 /* Animation Section 
