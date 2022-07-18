@@ -100,7 +100,7 @@ nav {
   font-weight: 300;
 }
 .intro-btns {
-  padding-top: 1.3rem;
+  padding: 1.3rem;
 }
 .intro-btns a {
   cursor: pointer;
@@ -534,7 +534,6 @@ nav {
   padding-top: 1rem;
   width: 80%;
   margin: auto;
-  /* display: flex; */
 }
 .idx-broker h1 {
   padding-bottom: 1rem;
@@ -639,6 +638,7 @@ footer {
 }
 .footer-section {
   text-align: center;
+  /* padding: 10rem 0; */
 }
 .footer-section img {
   padding-bottom: 1rem;
@@ -787,9 +787,15 @@ footer {
   .monetize-website-section {
     width: 100%;
     margin: auto;
+    padding: 1rem;
   }
-  .monetize-website {
+  .monetize-website,
+  .search-form-icons {
     padding: 4rem;
+  }
+  .search-text p {
+    width: 80%;
+    margin: auto;
   }
   .monetize-website h2,
   .idx-broker h1 {
